@@ -1,6 +1,9 @@
 @media (max-width: 767.98px) {
 	#card-title span,
-	#card-title-sec {
+	#card-title-sec span {
 		font-size: 1rem;
+	}
+	.footer span {
+		font-size: 0.9rem;
 	}
 }

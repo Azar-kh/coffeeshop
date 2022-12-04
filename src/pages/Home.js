@@ -1,4 +1,5 @@
 import { Container, Row } from 'react-bootstrap'
+import '../style.css'
 
 export function Home() {
   return (
@@ -16,7 +17,7 @@ export function Home() {
             src="/images/homepage/3.jpg"
             alt=""
             height="400px"
-            className="d-none d-lg-block"
+            className="d-none d-lg-block ;"
           />
 
           <img src="/images/homepage/1.jpg" alt="" height="400px" />
@@ -35,15 +36,15 @@ export function Home() {
         style={{ height: '60px' }}
         className="d-flex bg-white justify-content-evenly text-primary fw-bold fs-6 align-items-center fixed-bottom "
       >
-        <div className="d-flex justify-content-baseline ">
+        <div className="footer d-flex justify-content-center align-items-center">
           <span className=" material-symbols-outlined">more_time</span>
           <span>Quick and Easy Order</span>
         </div>
-        <div className="d-flex justify-content-baseline">
+        <div className="footer d-flex justify-content-center align-items-center">
           <span className="material-symbols-outlined">tips_and_updates</span>
           <span>Latest Technology</span>
         </div>
-        <div className="d-flex justify-content-baseline">
+        <div className="footer d-flex justify-content-center align-items-center">
           <span className="material-symbols-outlined">grade</span>
           <span>Five Star Ratings</span>
         </div>
