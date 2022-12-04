@@ -1,0 +1,58 @@
+[
+    {
+        "id":1,
+        "name":"Brown V.2",
+        "price":1300,
+        "image":"/images/coffeemaker/1.jpg"
+
+    },
+    {
+        "id":2,
+        "name":"Dual Pressure",
+        "price":950,
+        "image":"/images/coffeemaker/2.jpg"
+
+    },
+    {
+        "id":3,
+        "name":"Keureg Family",
+        "price":198,
+        "image":"/images/coffeemaker/3.jpg"
+
+    },
+    {
+        "id":4,
+        "name":"Advance Coffee",
+        "price":632,
+        "image":"/images/coffeemaker/4.jpg"
+
+    },
+    {
+        "id":5,
+        "name":"Single Serve",
+        "price":345.6,
+        "image":"/images/coffeemaker/5.jpg"
+
+    },
+    {
+        "id":6,
+        "name":"Foam Maker",
+        "price":167.99,
+        "image":"/images/coffeemaker/6.jpg"
+
+    },
+    {
+        "id":7,
+        "name":"Delongi 3.1v",
+        "price":525.99,
+        "image":"/images/coffeemaker/7.jpg"
+
+    },
+    {
+        "id":8,
+        "name":"Cuisinart",
+        "price":89.99,
+        "image":"/images/coffeemaker/8.jpg"
+
+    }
+]

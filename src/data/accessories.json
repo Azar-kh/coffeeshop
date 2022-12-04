@@ -1,0 +1,58 @@
+[
+    {
+        "id":9,
+        "name":"Whisk",
+        "price":24.99,
+        "image":"/images/accessories/1.jpg"
+
+    },
+    {
+        "id":10,
+        "name":"Foam Mug",
+        "price":39.99,
+        "image":"/images/accessories/2.jpg"
+
+    },
+    {
+        "id":11,
+        "name":"Reusable Filters",
+        "price":10,
+        "image":"/images/accessories/3.jpg"
+
+    },
+    {
+        "id":12,
+        "name":"Coffee Pot",
+        "price":39.99,
+        "image":"/images/accessories/4.jpg"
+
+    },
+    {
+        "id":13,
+        "name":"Container",
+        "price":22.10,
+        "image":"/images/accessories/5.jpg"
+
+    },
+    {
+        "id":14,
+        "name":"Coffee Organizer",
+        "price":69.99,
+        "image":"/images/accessories/6.jpg"
+
+    },
+    {
+        "id":15,
+        "name":"Cups",
+        "price":4.99,
+        "image":"/images/accessories/7.jpg"
+
+    },
+    {
+        "id":16,
+        "name":"Keureg Organizer",
+        "price":45,
+        "image":"/images/accessories/8.jpg"
+
+    }
+]
