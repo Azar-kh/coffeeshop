@@ -20,13 +20,20 @@ export function Navbar() {
           </Nav.Link>
         </Nav>
         <Button
-          style={{ height: '3rem', width: '3rem', position: 'relative' }}
+          className="bg-primary"
+          style={{
+            height: '3rem',
+            width: '3rem',
+            position: 'relative',
+            border: 'none',
+            borderRadius: '5px',
+          }}
           onClick={openCart}
         >
           <span className="material-symbols-outlined">shopping_cart</span>
           {getCartQuantity > 0 && (
             <div
-              className="rounded-circle bg-secondary d-flex justify-content-center align-items-center"
+              className="rounded-circle d-flex bg-secondary justify-content-center align-items-center"
               style={{
                 position: 'absolute',
                 bottom: '0',

@@ -1,4 +1,4 @@
-import { Container, Row } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import '../style.css'
 
 export function Home() {
@@ -9,27 +9,15 @@ export function Home() {
         <h6 className="text-muted">
           We provide the best coffee experience for our coffee lovers
         </h6>
-        <Row
-          lg={3}
-          className="mt-5 d-flex align-items-center justify-content-center "
-        >
+        <Container fluid className="d-flex mt-4">
           <img
-            src="/images/homepage/3.jpg"
+            style={{ objectFit: 'cover' }}
+            className="d-block w-100 img-responsive cover"
+            height="450px"
+            src="/images/homepage/home.jpg"
             alt=""
-            height="400px"
-            className="d-none d-lg-block ;"
           />
-
-          <img src="/images/homepage/1.jpg" alt="" height="400px" />
-
-          <img
-            src="/images/homepage/3.jpg"
-            alt=""
-            height="400px"
-            style={{ transform: 'rotate(180deg)' }}
-            className="d-none d-lg-block"
-          />
-        </Row>
+        </Container>
       </Container>
 
       <div
